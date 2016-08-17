@@ -1,10 +1,14 @@
 package com.jeklsoft.example;
 
 public class ExtensionClass extends BaseClass {
-
     public ExtensionClass() {
         System.out.println("ExtensionClass ctor");
     }
+
+//    public ExtensionClass(int number) {
+//        super(number);
+//        System.out.println("ExtensionClass ctor2: " + number);
+//    }
 
 //    public ExtensionClass(int number) {
 //        super(number);
